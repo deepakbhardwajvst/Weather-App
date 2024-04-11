@@ -22,12 +22,12 @@ export default function WeatherPage() {
       <WeatherHeader city={redirectedCity} />
 
       <button
-        className="border-slate-600 bg-indigo-600 rounded-lg py-2 text-indigo-50 px-3"
+        className="border-slate-600 bg-indigo-600 rounded-lg py-2 text-indigo-50 px-3 ml-10"
         onClick={() => navigate(-1)}
       >
         Back
       </button>
-      <img src={iconUrl} alt="weather icon" />
+      <img src={iconUrl} alt="weather icon" className="ml-6" />
     </div>
   );
 }

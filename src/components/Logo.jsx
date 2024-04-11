@@ -9,8 +9,8 @@ export default function Logo() {
     >
       <img className="h-[80px] rounded-lg" src="logo.png" alt="" />
       <h2 className="text-3xl text-[20px] sm:text-[24px] lg:text-[28px] text-indigo-100">
-        <span className="text-blue-700 font-semibold">Stamurai</span>
-        <span className="text-yellow-400">Cloud</span>
+        <span className="text-blue-200 font-semibold">Stamurai</span>
+        <span className="text-yellow-600">Cloud</span>
       </h2>
     </div>
   );

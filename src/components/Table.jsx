@@ -29,7 +29,7 @@ const StyledHeader = styled(CommonRow)`
   font-weight: 600;
   color: #ffffff;
 
-  background-color: #a5b4fc;
+  background-color: #3730a3;
 `;
 
 const StyledRow = styled(CommonRow)`
